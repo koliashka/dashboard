@@ -7,7 +7,7 @@ from io import BytesIO
 
 
 # URL для получения содержимого файла с использованием GitHub API
-url = f"https://codelab.tpu.ru/nat11/dashboard/-/blob/main/data.xlsx"
+url = f"https://github.com/koliashka/dashboard/blob/main/data.xlsx"
 
 # Выполнение HTTP-запроса и чтение данных в объект DataFrame с использованием pandas
 response = requests.get(url)
